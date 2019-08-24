@@ -3,7 +3,7 @@
 # Pre-install commons softwares for Ubuntu server
 sudo apt-get update
 sudo apt-get dist-upgrade -y
-sudo apt-get install -y apt-transport-https ca-certificates curl software-properties-commom unzip
+sudo apt-get install -y apt-transport-https ca-certificates curl software-properties-common unzip
 
 # Install docker
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
