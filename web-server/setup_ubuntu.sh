@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Change default setting
+sudo timedatectl set-timezone UTC
+
 # Pre-install commons softwares for Ubuntu server
 sudo apt-get update
 sudo apt-get dist-upgrade -y
